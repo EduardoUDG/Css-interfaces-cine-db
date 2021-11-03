@@ -28,19 +28,19 @@
             <a class="nav-link active" href="#">Inicio</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="./peliculas.html">Peliculas</a>
+            <a class="nav-link" href="#">Peliculas</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="./director.html">Director</a>
+            <a class="nav-link" href="#">Director</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="./galas.html">Galas</a>
+            <a class="nav-link" href="#">Galas</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="./actores.html">Actores</a>
+            <a class="nav-link" href="#">Actores</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="./ejemplares.html">Ejemplares</a>
+            <a class="nav-link" href="#">Ejemplares</a>
           </li>
         </ul>
 
@@ -53,6 +53,54 @@
     </div>
   </nav>
 
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h3 class="mt-4">Registrar nuev@ Actora/Actor</h3>
+        <hr>
+        <!-- Form --> 
+        <form>
+
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control ">
+            <div id="emailHelp" class="form-text">Este campo es obligatorio</div>
+          </div>
+
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">Edad</label>
+            <input type="number" min="0" max="150" class="form-control" placeholder="Numero">
+          </div>
+          
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">Apodo</label>
+            <input type="text" class="form-control ">
+          </div>
+
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">País</label>
+            <select class="form-select" >
+              <option selected>Seleccionar país</option>
+              <option value="1">México</option>
+              <option value="2">EE.UU</option>
+              <option value="3">Colombia</option>
+            </select>
+          </div>
+  
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">Red social preferida</label>
+            <input type="text" class="form-control" placeholder="Ingresa URL">
+          </div>
+  
+
+          <!-- submit button -->
+          <button type="submit" class="btn btn-primary">Registrar</button>
+          <button type="submit" class="btn btn-danger">Cancelar</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
 
 
 
