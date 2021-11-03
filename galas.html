@@ -63,59 +63,41 @@
         <form>
 
           <div class="mb-3 input-group-sm">
-            <label for="nombre" class="form-label">Nombre de la pelicula</label>
-            <input type="email" class="form-control ">
+            <label for="nombre" class="form-label">Nombre de gala</label>
+            <input type="text" class="form-control ">
             <div id="emailHelp" class="form-text">Este campo es obligatorio</div>
           </div>
+
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">País de la gala</label>
+            <select class="form-select" >
+              <option selected>Selecciónar país</option>
+              <option value="1">México</option>
+              <option value="2">Estados unidos de america</option>
+              <option value="3">Colombia</option>
+            </select>
+          </div>
+
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">Ciudad de la gala</label>
+            <select class="form-select" >
+              <option selected>Selecciónar ciudad</option>
+              <option value="1">Jalisco</option>
+              <option value="2">New York</option>
+              <option value="3">Medellin</option>
+            </select>
+          </div>
+
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">Calle de gala</label>
+            <input type="text" class="form-control ">
+          </div>
+
+          <div class="mb-3 input-group-sm">
+            <label for="nombre" class="form-label">Representante de la gala</label>
+            <input type="text" class="form-control ">
+          </div>
           
-          <div class="mb-3 input-group-sm">
-            <label class="form-label">Descripción</label>
-            <textarea class="form-control" rows="3"></textarea>
-          </div>
-  
-          <div class="mb-3 input-group-sm">
-            <label for="nombre" class="form-label">Fecha de estreno</label>
-            <input type="date" class="form-control">
-          </div>
-  
-          <div class="mb-3 input-group-sm">
-            <label for="nombre" class="form-label">Categoria</label>
-            <select class="form-select" >
-              <option selected>Categoria</option>
-              <option value="1">Acción</option>
-              <option value="2">Terror</option>
-              <option value="3">Fantasia</option>
-            </select>
-          </div>
-  
-          <div class="mb-3 input-group-sm">
-            <label for="nombre" class="form-label">Actores</label>
-            <select class="form-select" >
-              <option selected>Actores</option>
-              <option value="1">Dylon junior</option>
-              <option value="2">Ed Maverick</option>
-              <option value="3">Rufino mala cara</option>
-            </select>
-          </div>
-  
-          <div class="mb-3 input-group-sm">
-            <label for="nombre" class="form-label">Duración</label>
-            <input type="number" min="0" max="480" class="form-control" placeholder="Duración en minutos">
-          </div>
-  
-          <div class="mb-3 input-group-sm">
-            <label for="nombre" class="form-label">Subir pelicula</label>
-            <input type="file" class="form-control">
-          </div>
-          <!-- <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control">
-          </div> -->
-          <!-- <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Aceptar terminos y permisos</label>
-          </div> -->
-  
           <!-- submit button -->
           <button type="submit" class="btn btn-primary">Registrar</button>
           <button type="submit" class="btn btn-danger">Cancelar</button>
